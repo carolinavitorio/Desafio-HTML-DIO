@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formação HTML</title>
+</head>
+
+<body>
+    <h1>Falando sobre HTML</h1>
+    <hr>
+
+    <h2 id="inicio">Índice</h2>
+    <ul>
+        <li><a href="#sobre">Sobre HTML</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#sobre-tags">Falando sobre tags</a></li>
+        <li><a href="#atributos-da-tag">Atributos das tags</a></li>
+    </ul>
+    <hr>
+
+    <h3 id="sobre">Sobre HTML</h3>
+    <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas da web. Ao contrário de
+        linguagens de programação (como JavaScript ou Python), HTML não é uma linguagem de lógica — ele marca o conteúdo
+        da página para que os navegadores saibam como exibi-lo.</p>
+    <small><a href="#inicio">Topo</a></small>
+    <hr>
+
+
+    <h3 id="estrutura">Estrutura básica do HTML</h3>
+    <p>Todo arquivo HTML começa com uma estrutura base. Ela organiza o documento para que os navegadores entendam como renderizar o conteúdo:
+
+    <pre><code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="pt-br"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Minha Página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+            &lt;p&gt;Bem-vindo ao meu site.&lt;/p&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+    </code></pre>
+
+    <h4>Explicando:</h4>
+    <p><strong>!DOCTYPE html</strong>: Informa que estamos usando HTML5.</p>
+
+    <p><strong>html</strong>: Tag raiz de todo o HTML.</p>
+
+    <p><strong>head</strong>: Contém informações da página (não visíveis ao usuário).</p>
+
+    <p><strong>body</strong>: Onde o conteúdo visível é colocado.</p>
+
+    <small><a href="#inicio">Topo</a></small>
+    <hr>
+
+    <h3 id="sobre-tags">Falando sobre tags</h3>
+    <p>As tags são usadas para delimitar elementos no conteúdo da página. Elas geralmente vêm em pares: uma tag de
+        abertura e uma de fechamento.
+
+    <h4>Exemplo:</h4>
+
+    <p>Este é um parágrafo. </p>
+    <p>Existem centenas de tags, mas aqui vão algumas das mais comuns:
+
+    <p><strong>p </strong> Parágrafo</p>
+    <p><strong>h1 a h6 </strong> Títulos (h1 é o mais importante, h6 o menos)</p>
+    <p><strong>a </strong> Link</p>
+    <p><strong>img </strong> Imagem</p>
+    <p><strong>ul, ol, li </strong> Listas</p>
+    <p><strong>div </strong> Divisão genérica</p>
+    <p><strong>span </strong> Texto em linha</p>
+    <p><strong>table, tr, td </strong> Tabelas </p>
+
+    <p>Algumas tags não precisam de fechamento, como <strong>img</strong>, <strong>br</strong> (quebra de linha) e
+        <strong>hr </strong> (linha horizontal).
+    </p>
+    <small><a href="#inicio">Topo</a></small>
+    <hr>
+
+    <h3 id="atributos-da-tag">Atributos das tags</h3>
+    <p>Os atributos fornecem informações adicionais sobre os elementos. Eles aparecem dentro da tag de abertura.
+
+    <h4>Exemplo com a tag de imagem:</h4>
+
+    <p> img src="logo.png" alt="Logo da empresa" width="100" </p>
+    <p>Atributos comuns:</p>
+
+    <p><strong>src</strong> Define a fonte (imagem, vídeo etc.)</p>
+    <p><strong>href</strong> Define o link na tag <strong>a</strong></p>
+    <p><strong>alt</strong> Texto alternativo para imagens (acessibilidade)</p>
+    <p><strong>class</strong> Aplica uma classe CSS</p>
+    <p><strong>id</strong> Identificador único</p>
+    <p><strong>style</strong> Estilização inline</p>
+    <p><strong>target="_blank"</strong> Abre links em nova aba</p>
+    <small><a href="#inicio">Topo</a></small>
+
+</body>
+
+</html>
