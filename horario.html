@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+
+<body>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: auto;
+        }
+
+        .content {
+            flex-grow: 1;
+            text-align: center;
+            width: 85%;
+            margin: auto;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            font-weight: 700;
+            font-size: 16pxpx;
+            margin: 10px;
+            padding: 5px;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #017774;
+            background-color: transparent;
+        }
+
+        section p {
+            font-size: 16px;
+        }
+
+        table,
+        th,
+        td {
+            margin: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+    <nav>
+        <img src="./src/horario.png" alt="">
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="about.html">Sobre a Clinica</a></li>
+            <li><a href="horario.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <p>
+            Visite nossa clínica veterinária para garantir o melhor cuidado para o seu pet! Estamos prontos para atender
+            você e seu amigo.
+        </p>
+        <table style="text-align: center;">
+            <thead>
+                <th colspan="4">Horários de atendimento</th>
+            </thead>
+            <th>Serviços</th>
+            <th>Segunda a Sexta</th>
+            <th>Sábados</th>
+            <th>Feriados</th>
+            <tr>
+                <th>Clinica Geral</th>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <th>Vacinas</th>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <th>Nutrição</th>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <th>Banho e tosa</th>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <th>Odontologia veterinária</th>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <th>Cirurgias</th>
+                <td>08h - 16h</td>
+                <td> 08h - 16h</td>
+                <td>-</td>
+            <tr>
+                <th>Exames</th>
+                <td>08h - 16h</td>
+                <td> 08h - 16h</td>
+                <td>-</td>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <a href="contato.html">Contato</a>
+    </footer>
+</body>
+
+</html>
